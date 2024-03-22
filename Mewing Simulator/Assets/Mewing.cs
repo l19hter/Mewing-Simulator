@@ -5,8 +5,8 @@ using UnityEngine;
 
 public class Mewing : MonoBehaviour
 {
-    private void OnMouseDown()
+    private void OnMouseEnter()
     {
-        
+        transform.localScale += new Vector3(1, 1, 1);
     }
 }
